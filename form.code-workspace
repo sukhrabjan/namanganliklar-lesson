@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../form"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "namanganliklar"
+	}
+}
