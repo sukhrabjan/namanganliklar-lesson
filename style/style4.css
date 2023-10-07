@@ -149,7 +149,7 @@ body {
   margin-bottom: 50px;
 }
 
-.sietnav-list {
+.sietnav__list {
   margin: 0;
   padding: 0;
   padding-bottom: 20px;
@@ -159,11 +159,8 @@ body {
   border-bottom: 1px solid #d1d1d1;
 }
 
-/* .sitenav-item:not(:last-child) {
-  margin-right: 35px;
-} */
 
-.sitenav-link {
+.sitenav__link {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
@@ -171,7 +168,7 @@ body {
   color: #7f7f7f;
 }
 
-.Write-to-us {
+.Write__to--us {
   margin-bottom: 100px;
 }
 
@@ -245,7 +242,7 @@ body {
   background: #FFF;
 }
 
-.button {
+.push-button {
   width: 145px;
   height: 53px;
   color: #FFF;
