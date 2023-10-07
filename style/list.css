@@ -487,7 +487,7 @@ body {
 
 
 /* Footer */
-.footer-link {
+.footer-first{
   margin: 0;
   background-color: #7297EF;
 
@@ -498,17 +498,17 @@ body {
   max-width: 998px;
 }
 
-.footer-list-item {
+.footer__list--item {
   display: flex;
   margin-top: 40px;
 }
 
-.footer-list {
+.footer__list {
   margin-right: 168px;
 
 }
 
-.footer-word {
+.footer__word {
   width: 264px;
   margin-top: 0;
   margin-bottom: 15px;
@@ -523,7 +523,7 @@ body {
 
 }
 
-.footer-word-two {
+.footer__word--two {
   width: 229px;
   margin: 0;
   font-family: Rubik;
@@ -536,36 +536,35 @@ body {
 
 }
 
-.footer-link-list {
+.footer__link--list {
   display: flex;
 }
 
-.footer-ul {
+.footer__ul {
   margin: 0;
   padding: 0;
   padding-top: 43px;
 }
 
-.footer-ul:not(last-child) {
+.footer__ul:not(last-child) {
   margin-right: 100px;
 }
 
-.footer-ul:nth-child(2) {
+.footer__ul:nth-child(2) {
   margin-right: 0;
 }
 
-.footer-link-item {
+.footer__link--item {
   margin-top: 0;
-
   text-align: left;
   list-style: none;
 }
 
-.footer-link-item:not(last-child) {
+.footer__link--item:not(last-child) {
   margin-bottom: 20px;
 }
 
-.footer-link-a {
+.footer__link--a {
   color: #fff;
   font-size: 16px;
   font-family: Rubik;
@@ -575,13 +574,13 @@ body {
   text-decoration: none;
 }
 
-.footer-line {
+.footer__line {
   width: 998px;
   color: #CECECE;
 
 }
 
-.footer-link-word {
+.footer__link--word {
   width: 161px;
   font-family: Rubik;
   font-size: 18px;
@@ -592,7 +591,7 @@ body {
   color: #fff;
 }
 
-.footer-inner {
+.footer__inner {
   width: 100%;
   max-width: 1000px;
   margin-left: auto;
@@ -600,14 +599,14 @@ body {
 }
 
 
-.footer-links {
+.footer__links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0;
 }
 
-.footer-link-word {
+.footer__link--word {
   width: 161px;
   font-family: Rubik;
   font-size: 18px;
@@ -618,7 +617,7 @@ body {
   color: #fff;
 }
 
-.footer-link-two:not(:last-child) {
+.footer__link--two:not(:last-child) {
   margin-right: 25px;
 }
 
@@ -636,7 +635,7 @@ body {
   display: none;
 }
 
-.modal-block {
+.modal__block {
   text-align: center;
   width: 100%;
   max-width: 850px;
@@ -649,14 +648,14 @@ body {
 
 }
 
-.modal-image {
+.modal__image {
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
 }
 
-.modal-text {
+.modal__text {
   margin-top: 0;
   margin-bottom: 25pxx;
   color: #000;
@@ -668,7 +667,7 @@ body {
   line-height: 34px;
 }
 
-.modal-button {
+.modal__button {
   border: none;
   margin-top: 0;
   padding-top: 15px;
