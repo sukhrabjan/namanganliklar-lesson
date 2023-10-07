@@ -45,28 +45,28 @@ body {
   padding: 30px 0;
 }
 
-.header-content {
+.header__content {
   display: flex;
   align-items: center;
 }
 
-.currently-rate-wrapper {
+.currently__rate--wrapper {
   margin-right: auto;
 }
 
-.header-logo-link {
+.header__logo--link {
   display: flex;
   text-decoration: none;
   margin-right: 35px;
 }
 
-.header-logo {
+.header__logo {
   width: 276px;
   height: 45px;
   object-fit: contain;
 }
 
-.currently-rate {
+.currently__rate {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 700;
@@ -75,20 +75,20 @@ body {
   color: #555;
 }
 
-.currently-rate:not(:last-child) {
+.currently__rate:not(:last-child) {
   margin-right: 35px;
 }
 
-.currently-rate b {
+.currently__rate b {
   font-weight: 900;
   color: #2959ce;
 }
 
-.search-form {
+.search__form {
   margin-right: 25px;
 }
 
-.search-input {
+.search__input {
   border: 0;
   padding-top: 15px;
   padding-bottom: 13px;
@@ -99,7 +99,7 @@ body {
   background-position: 15px center;
 }
 
-.language-toggler {
+.language__toggler {
   padding: 3px;
   display: flex;
   align-items: center;
@@ -117,16 +117,16 @@ body {
   padding: 7px;
 }
 
-.language-uz {
+.language__uz {
   background-color: #fff;
   border-radius: 50%;
 }
 
-.language-ru {
+.language__ru {
   color: #a6a6a6;
 }
 
-.header-button {
+.button {
   display: block;
   font-size: 16px;
   font-weight: 500;
