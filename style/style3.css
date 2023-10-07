@@ -184,16 +184,16 @@ body {
   display: flex;
 }
 
-.header-div {
+.header__div {
   display: flex;
   align-items: center;
 }
 
-.tesla-image {
+.tesla__image {
   margin-bottom: 25px;
 }
 
-.section-small-word {
+.section__small--word {
   margin-left: 10px;
   color: var(--text-small-color);
   font-family: Rubik;
@@ -203,7 +203,7 @@ body {
   line-height: normal;
 }
 
-.heading-general-word {
+.heading__general--word {
   width: 797px;
   margin-bottom: 20px;
   color: var(--heading-color);
@@ -214,7 +214,7 @@ body {
   line-height: 36px;
 }
 
-.section-site-list {
+.section__site--list {
   width: 797px;
   margin-top: 0;
   color: var(--heading-color);
@@ -223,6 +223,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+}
+.section__site--list-two{
+  margin-bottom: 50px;
 }
 
 .vector {
@@ -233,11 +236,13 @@ body {
   stroke: #D2D2D2;
 }
 
+.main{
+  margin-left: 10px;
+}
 
-.main-news {
+.main__news {
   width: 100%;
   max-width: 393px;
-  margin-left: 10px;
   margin-bottom: 10px;
   padding-top: 20px;
   padding-left: 17px;
@@ -247,7 +252,7 @@ body {
   background: #F6F6F6;
 }
 
-.main-header-news {
+.main__header--news {
   margin: 0;
   margin-bottom: 25px;
   color: var(--heading-color);
@@ -256,7 +261,7 @@ body {
   font-weight: 500;
 }
 
-.main-heading-news {
+.main__heading--news {
   width: 311px;
   margin-top: 0;
   color: var(--heading-color);
@@ -266,14 +271,14 @@ body {
   line-height: 24px;
 }
 
-.main-small-news {
+.main__small--news {
   margin-top: 0;
   color: var(--text-small-color);
   font-size: 13px;
   font-family: Rubik;
 }
 
-.main-line {
+.main__line {
   margin: 0;
   margin-bottom: 20px;
   width: 359px;
