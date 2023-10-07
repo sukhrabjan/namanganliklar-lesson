@@ -148,7 +148,7 @@ body {
   margin-bottom: 50px;
 }
 
-.sietnav-list {
+.sietnav__list {
   margin: 0;
   padding: 0;
   padding-bottom: 20px;
@@ -162,7 +162,7 @@ body {
   margin-right: 35px;
 } */
 
-.sitenav-link {
+.sitenav__link {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
