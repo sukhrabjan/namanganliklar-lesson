@@ -172,7 +172,7 @@ body {
   margin-bottom: 100px;
 }
 
-.header-word {
+.header__word {
   margin-top: 0;
   margin-bottom: 20px;
   color: var(--heading-color);
@@ -183,11 +183,27 @@ body {
   line-height: normal;
 }
 
-.text-aria {
-  margin-bottom: 10px;
+.contact{
+  display: flex;
+
+}
+.form {
+  width: 100%;
+  max-width: 696px;
+  margin-right: 10px;
 }
 
-.text-name {
+.text__aria {
+  display: flex;
+  margin-bottom: 10px;
+}
+.form__calc{
+  width: calc(calc(100% - 10px ) / 2 ) ;
+}
+.form__calc:nth-child(1){
+margin-right: 10px;
+}
+.text__name {
   width: 100%;
   max-width: 343px;
   border-radius: 10px;
@@ -199,7 +215,7 @@ body {
   background-color: #fff;
 }
 
-.text-number {
+.text__number {
   width: 100%;
   max-width: 343px;
   padding-left: 20px;
@@ -210,7 +226,7 @@ body {
   background: #FFF;
 }
 
-.text-email {
+.text__email {
   width: 100%;
   max-width: 696px;
   border-radius: 10px;
@@ -222,15 +238,13 @@ body {
   background: #FFF;
 }
 
-.text-aria-two {
-
-  width:100%;
-  max-width: 696px;
-    height: 180px;
+.text__aria--two {
+  min-height: 180px;
+  width: 100%;
+  resize: vertical;
   color: var(--heading-color);
   padding-left: 20px;
   padding-top: 20px;
-  padding-bottom: 143px;
   font-family: Rubik;
   font-size: 16px;
   font-style: normal;
@@ -242,7 +256,12 @@ body {
   background: #FFF;
 }
 
+.button__div{
+  display: flex;
+  justify-content: flex-end;
+}
 .push-button {
+
   width: 145px;
   height: 53px;
   color: #FFF;
@@ -267,8 +286,8 @@ padding-bottom: 40px;
 background: #F6F6F6;
 }
 
-.Gmail{
-  margin-top: 0;
+.gmail{
+margin-top: 0;
   color: var(--heading-color);
   margin-bottom: 7px;
 font-family: Rubik;
@@ -278,7 +297,7 @@ font-weight: 500;
 line-height: normal;
 }
 
-.small-gmail{
+.small__gmail{
   color: var(--heading-color);
   margin-top: 0;
 font-family: Rubik;
@@ -288,7 +307,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-.small-gmail:nth-child(3){
+.small__gmail:nth-child(3){
 
 margin-bottom: 0;
 }
@@ -299,28 +318,23 @@ margin-bottom: 0;
   margin-bottom: 20px;
 }
 /* Footer */
-.footer-link {
+.footer{
   margin: 0;
   background-color: #7297EF;
 
 }
-
-.footer-div {
-  width: 100%;
-  max-width: 998px;
-}
-
-.footer-list-item {
+  
+.footer__list--item {
   display: flex;
   margin-top: 40px;
 }
 
-.footer-list {
+.footer__list {
   margin-right: 168px;
 
 }
 
-.footer-word {
+.footer__word {
   width: 264px;
   margin-top: 0;
   margin-bottom: 15px;
@@ -335,7 +349,7 @@ margin-bottom: 0;
 
 }
 
-.footer-word-two {
+.footer__word--two {
   width: 229px;
   margin: 0;
   font-family: Rubik;
@@ -348,36 +362,36 @@ margin-bottom: 0;
 
 }
 
-.footer-link-list {
+.footer__link--list {
   display: flex;
 }
 
-.footer-ul {
+.footer__ul {
   margin: 0;
   padding: 0;
   padding-top: 43px;
 }
 
-.footer-ul:not(last-child) {
+.footer__ul:not(last-child) {
   margin-right: 100px;
 }
 
-.footer-ul:nth-child(2) {
+.footer__ul:nth-child(2) {
   margin-right: 0;
 }
 
-.footer-link-item {
+.footer__link--item {
   margin-top: 0;
 
   text-align: left;
   list-style: none;
 }
 
-.footer-link-item:not(last-child) {
+.footer__link--item:not(last-child) {
   margin-bottom: 20px;
 }
 
-.footer-link-a {
+.footer__link--a {
   color: #fff;
   font-size: 16px;
   font-family: Rubik;
@@ -387,13 +401,13 @@ margin-bottom: 0;
   text-decoration: none;
 }
 
-.footer-line {
+.footer__line {
   width: 998px;
   color: #CECECE;
 
 }
 
-.footer-link-word {
+.footer__link--word {
   width: 161px;
   font-family: Rubik;
   font-size: 18px;
@@ -404,7 +418,7 @@ margin-bottom: 0;
   color: #fff;
 }
 
-.footer-inner {
+.footer__inner {
   width: 100%;
   max-width: 1000px;
   margin-left: auto;
@@ -412,14 +426,14 @@ margin-bottom: 0;
 }
 
 
-.footer-links {
+.footer__links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0;
 }
 
-.footer-link-word {
+.footer__link--word {
   width: 161px;
   font-family: Rubik;
   font-size: 18px;
@@ -430,6 +444,6 @@ margin-bottom: 0;
   color: #fff;
 }
 
-.footer-link-two:not(:last-child) {
+.footer__link--two:not(:last-child) {
   margin-right: 25px;
 }
