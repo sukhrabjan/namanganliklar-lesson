@@ -1,3 +1,32 @@
+/* STYLES */
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+    url('../fonts/Rubik-Regular.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+    url('../fonts/Rubik-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+    url('../fonts/Rubik-Bold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 :root {
   --header-color: #7f7f7f;
   --heading-color: #000;
@@ -18,6 +47,7 @@ html {
 }
 
 body {
+  font-family: "Rubik", "Arial", sans-serif;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -181,6 +211,7 @@ body {
 }
 
 .section__news--li {
+  margin-right: 10px;
   border-radius: 15px;
   padding-top: 20px;
   padding-bottom: 15px;
@@ -192,8 +223,10 @@ body {
 }
 
 .section__news {
+  display: inline-block;
   width: 358px;
   margin-top: 0;
+  margin-bottom: 10px;
   color: var(--heading-color);
   font-size: 20px;
   font-family: Rubik;
@@ -204,7 +237,7 @@ body {
 
 .section__news--two {
   width: 346px;
-  margin-top: 0;
+
   color: var(--text-color);
   font-size: 16px;
   font-family: Rubik;
@@ -363,6 +396,7 @@ body {
 
 .site__layout--item {
   display: flex;
+  margin-bottom: 10px;
   padding: 20px;
   background-color: #f6f6f6;
   border-radius: 15px;
@@ -460,8 +494,8 @@ body {
 }
 
 .main__heading--news {
-  width: 311px;
   margin-top: 0;
+  margin-bottom: 8px;
   color: var(--heading-color);
   font-size: 18px;
   font-family: Rubik;
@@ -487,7 +521,7 @@ body {
 
 
 /* Footer */
-.footer-first{
+.footer-first {
   margin: 0;
   background-color: #7297EF;
 
@@ -631,7 +665,8 @@ body {
   top: 0;
   left: 0;
 }
-.modal-none{
+
+.modal-none {
   display: none;
 }
 
@@ -644,7 +679,7 @@ body {
   padding: 50px 169px;
   top: 390px;
   left: 395px;
-  position:absolute;
+  position: absolute;
 
 }
 
