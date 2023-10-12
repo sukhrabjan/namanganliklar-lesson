@@ -684,7 +684,7 @@ margin-bottom: 8px;
   top: 50%;
   left: 395px;
   position: absolute;
-  transform: rotateY('-50%');
+transform: translateY(-50%);
 
 }
 
