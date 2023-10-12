@@ -397,7 +397,10 @@ body {
 .site__layout--item {
   display: flex;
   margin-bottom: 10px;
-  padding: 20px;
+  padding-left: 17px ;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #f6f6f6;
   border-radius: 15px;
 }
@@ -680,9 +683,10 @@ body {
   background-color: #fff;
   border-radius: 20px;
   padding: 50px 169px;
-  top: 390px;
+  top: 50%;
   left: 395px;
   position: absolute;
+  transform: rotateY('-50%');
 
 }
 
@@ -721,6 +725,7 @@ body {
   font-weight: 500;
   line-height: normal;
   cursor: pointer;
+
 
 }
 
