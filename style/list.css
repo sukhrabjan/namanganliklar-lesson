@@ -296,7 +296,7 @@ body {
 .list__word--news {
   width: 404px;
   margin: 0;
-  color: var(--header-color);
+  color: var(--heading-color);
   font-family: Rubik;
   font-size: 20px;
   font-style: normal;
